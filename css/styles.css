@@ -1,0 +1,257 @@
+
+@font-face {
+    font-family: "Georgia";
+    src: url(/Users/karemindorus/Library/Fonts/gerogia.ttf);
+}
+
+body {
+    background: linear-gradient(#e66465, #9198e5);
+    max-width: 90%;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-image: url("/Users/karemindorus/progressive-enhancement/fond.avif```````````");
+}
+
+
+
+
+.pictureleg {
+    font-size: 1em
+}
+
+
+
+
+p {
+    font-family: "Georgia";
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    line-height: 1.7em;
+    color: #383737;
+}
+    
+
+
+li {
+    font-family: "Georgia";
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    line-height: 1.7em;
+    color: #383737;
+
+
+}
+
+h1 {
+    font-family: "Georgia";
+    font-size: 3em;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    line-height: 1.5em;
+    color: #383737;
+}
+
+
+h2 {
+    font-family: "Georgia";
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #383737;
+}
+
+.legendecap {
+    
+    font-size: 1rem;
+    position:relative;
+    margin-left:10em;
+    position: relative;
+
+
+}
+.thequote {
+    
+    max-block-size: 150%;
+
+
+}
+blockquote.farmer {
+        border-left: 0.1em solid rgb(255, 169, 233);
+        padding: 30px;
+        font-family: "Georgia";
+        margin-top: 80px;
+        margin-bottom: 80px;
+        font-size: 160%;
+        font-weight: 100;
+        letter-spacing: 0.01em;
+        line-height: 1.7em;
+        color: #383737;
+        font-style: italic;
+        max-width: 45%;
+        margin-right: 25%;
+        margin-left: 25%;
+        
+    
+    }
+
+    blockquote.villager {
+        border-left: 0.1em solid rgb(67, 253, 57);
+        padding: 30px;
+        font-family: "Georgia";
+        margin-top: 80px;
+        margin-bottom: 80px;
+        font-size: 160%;
+        font-weight: 100;
+        letter-spacing: 0.01em;
+        line-height: 1.7em;
+        color: #383737;
+        font-style: italic;
+        max-width: 45%;
+        margin-right: 25%;
+        margin-left: 25%;
+        
+    
+    }
+    
+
+
+figcaption {
+    font-family: "Georgia";
+    font-size: 160%;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    line-height: 1.7em;
+    color: #383737;
+    font-style: italic;
+}
+
+
+table {
+        font-family: "Georgia";
+        font-size: 12px;
+        font-weight: 100;
+        letter-spacing: 0.01em;
+        line-height: 1.7em;
+        color: #383737;
+    }
+
+    th {
+        font-family: "Georgia";
+        font-size: 12px;
+        font-weight: 100;
+        letter-spacing: 0.01em;
+        line-height: 1.7em;
+        color: #383737;
+    }
+
+a:link {
+    color:rgb(0, 0, 0);
+    background-color: rgb(249, 157, 0);
+    font-style: ;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1b1b1b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000 ;
+    background-color: rgba(249, 158, 0, 0.464) ;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(255, 12, 12);
+}
+
+
+}
+
+.good, .bad{
+    text-transform: uppercase;
+}
+
+.good {
+    color: green
+}
+
+.bad {
+    color:red;
+}
+
+table{
+    border: 2em, solid, red
+}
+
+
+tr[for] > th:nth-of-type(2n){
+    background: grey;
+}
+
+th[for]:nth-of-type(2n-1){
+    background: grey;
+}
+
+.typeofppl > li:first-child {
+background-image: url(/Users/karemindorus/progressive-enhancement/bien.png);
+padding: 0.6em;
+padding-right: 48em;
+position: relative;
+background-repeat: no-repeat;
+background-position: center;
+background-origin: content-box;
+
+}
+
+.typeofppl > li:nth-child(2) {
+
+background-image: url(/Users/karemindorus/progressive-enhancement/mal.png);
+padding: 0.6em;
+padding-right: 48em;
+position: relative;
+background-repeat: no-repeat;
+background-position: center;
+background-origin: content-box;
+}
+
+
+.typeofppl > li:nth-child(3) {
+
+    background-image: url(/Users/karemindorus/progressive-enhancement/chat.png);
+    padding: 0.6em;
+    padding-right: 48em;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    }
+
+
+
+.imgpara { /*Section */
+    display: flex;
+}
+
+article {
+    padding: 2em;
+    margin: 0.5em;
+    
+   
+    
+}
+
+article:nth-of-type(1){
+    justify-content: start;
+    
+    flex:1
+}
+
+article > img { 
+    max-width: 30em;
+  }
